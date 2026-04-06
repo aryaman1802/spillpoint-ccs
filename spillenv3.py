@@ -76,7 +76,7 @@ class OptimalStoppingCO2Env(gym.Env):
         nz_cells: int = 100,
         obs_well_loc_m: float = 10000.0,
         injection_rate_m3: float = 999_999.99,
-        max_steps: int = 500,
+        max_steps: int = 20000,
         co2_price_per_Mt: float = 70.0,       # M$ per million tonnes trapped
         measurement_cost_M: float = 0.03,      # M$ per measurement ($30 000)
         render_mode: Optional[str] = None,
